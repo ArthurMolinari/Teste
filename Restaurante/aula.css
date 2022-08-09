@@ -1,0 +1,84 @@
+#banner{
+    width: 50%;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    right: 0 auto;
+    margin: 0 auto;
+}
+header{
+    background: #98FB98;
+    padding: 20px 0;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; /*espasçamento*/
+}
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{ /*/ MUDAR A COR QUANDO PASSA O MAUSE SOBRE O ELEMENTO */
+    color: green;
+}
+.Produtos li{
+    display: inline-block;
+    text-align: center;
+
+    width: 30%;
+    vertical-align: top;
+    margin: 0 11.0%;
+    padding: 10px 10px;
+
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px; /*/ ARREDONDAR A BORDA */
+    border-style: bold;
+}
+#banner1{
+    border: 5px solid green;
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+#banner2{
+    border: 5px solid green;
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+#banner3{
+    border: 5px solid green;
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+.Produtos li:hover{
+    border-color: green;
+}
+.Produtos li:active{/*/MUDAR A COR QUANDO CLICADO*/
+    border-color: green;
+}
+.Produtos li:hover h2{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.Produtos li:hover h3{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.Produtos li:hover h4{
+    text-transform: uppercase;
+    font-size: 40px;
+}
